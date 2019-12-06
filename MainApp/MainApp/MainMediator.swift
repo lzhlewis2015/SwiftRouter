@@ -8,9 +8,9 @@
 
 import Foundation
 import AppCore
-import ModuleTargets
+import Router
 
-extension MainMouduleDestinationType: CXDestinationSourceType {
+extension MainMouduleDestinationType: CXDestinationImplProtocol {
     
     public var viewController: UIViewController? {
         let bundle = Bundle(for: ViewController.self)

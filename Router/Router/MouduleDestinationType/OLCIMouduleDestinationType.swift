@@ -10,5 +10,5 @@ import Foundation
 import AppCore
 
 public enum OLCIMouduleDestinationType: CXDestinationType {
-    case olciPage1(status: OLCIStatus)
+    case olciPage1(status: Int)
 }

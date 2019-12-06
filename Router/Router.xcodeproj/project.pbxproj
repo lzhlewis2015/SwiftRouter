@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC7D411C2359A82100BC57D7 /* ModuleTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7D411A2359A82100BC57D7 /* ModuleTargets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC7D412F2359A8A200BC57D7 /* MMBBookingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D41282359A8A200BC57D7 /* MMBBookingStatus.swift */; };
-		CC7D41302359A8A200BC57D7 /* OLCIStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412A2359A8A200BC57D7 /* OLCIStatus.swift */; };
 		CC7D41312359A8A200BC57D7 /* MMBMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412C2359A8A200BC57D7 /* MMBMouduleDestinationType.swift */; };
 		CC7D41322359A8A200BC57D7 /* MainMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412D2359A8A200BC57D7 /* MainMouduleDestinationType.swift */; };
 		CC7D41332359A8A200BC57D7 /* OLCIMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412E2359A8A200BC57D7 /* OLCIMouduleDestinationType.swift */; };
@@ -27,11 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC7D41172359A82100BC57D7 /* ModuleTargets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleTargets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7D41172359A82100BC57D7 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D411A2359A82100BC57D7 /* ModuleTargets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleTargets.h; sourceTree = "<group>"; };
 		CC7D411B2359A82100BC57D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC7D41282359A8A200BC57D7 /* MMBBookingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBBookingStatus.swift; sourceTree = "<group>"; };
-		CC7D412A2359A8A200BC57D7 /* OLCIStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLCIStatus.swift; sourceTree = "<group>"; };
 		CC7D412C2359A8A200BC57D7 /* MMBMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBMouduleDestinationType.swift; sourceTree = "<group>"; };
 		CC7D412D2359A8A200BC57D7 /* MainMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMouduleDestinationType.swift; sourceTree = "<group>"; };
 		CC7D412E2359A8A200BC57D7 /* OLCIMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLCIMouduleDestinationType.swift; sourceTree = "<group>"; };
@@ -53,7 +49,7 @@
 		CC7D410D2359A82100BC57D7 = {
 			isa = PBXGroup;
 			children = (
-				CC7D41192359A82100BC57D7 /* ModuleTargets */,
+				CC7D41192359A82100BC57D7 /* Router */,
 				CC7D41182359A82100BC57D7 /* Products */,
 				CC7D41342359A8D000BC57D7 /* Frameworks */,
 			);
@@ -62,45 +58,19 @@
 		CC7D41182359A82100BC57D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D41172359A82100BC57D7 /* ModuleTargets.framework */,
+				CC7D41172359A82100BC57D7 /* Router.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC7D41192359A82100BC57D7 /* ModuleTargets */ = {
+		CC7D41192359A82100BC57D7 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D41262359A8A200BC57D7 /* ModuleModel */,
 				CC7D412B2359A8A200BC57D7 /* MouduleDestinationType */,
 				CC7D411A2359A82100BC57D7 /* ModuleTargets.h */,
 				CC7D411B2359A82100BC57D7 /* Info.plist */,
 			);
-			path = ModuleTargets;
-			sourceTree = "<group>";
-		};
-		CC7D41262359A8A200BC57D7 /* ModuleModel */ = {
-			isa = PBXGroup;
-			children = (
-				CC7D41272359A8A200BC57D7 /* MMB */,
-				CC7D41292359A8A200BC57D7 /* OLCI */,
-			);
-			path = ModuleModel;
-			sourceTree = "<group>";
-		};
-		CC7D41272359A8A200BC57D7 /* MMB */ = {
-			isa = PBXGroup;
-			children = (
-				CC7D41282359A8A200BC57D7 /* MMBBookingStatus.swift */,
-			);
-			path = MMB;
-			sourceTree = "<group>";
-		};
-		CC7D41292359A8A200BC57D7 /* OLCI */ = {
-			isa = PBXGroup;
-			children = (
-				CC7D412A2359A8A200BC57D7 /* OLCIStatus.swift */,
-			);
-			path = OLCI;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		CC7D412B2359A8A200BC57D7 /* MouduleDestinationType */ = {
@@ -143,9 +113,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CC7D41162359A82100BC57D7 /* ModuleTargets */ = {
+		CC7D41162359A82100BC57D7 /* Router */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC7D411F2359A82100BC57D7 /* Build configuration list for PBXNativeTarget "ModuleTargets" */;
+			buildConfigurationList = CC7D411F2359A82100BC57D7 /* Build configuration list for PBXNativeTarget "Router" */;
 			buildPhases = (
 				CC7D41122359A82100BC57D7 /* Headers */,
 				CC7D41132359A82100BC57D7 /* Sources */,
@@ -156,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = ModuleTargets;
+			name = Router;
 			productName = ModuleTargets;
-			productReference = CC7D41172359A82100BC57D7 /* ModuleTargets.framework */;
+			productReference = CC7D41172359A82100BC57D7 /* Router.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC7D41112359A82100BC57D7 /* Build configuration list for PBXProject "ModuleTargets" */;
+			buildConfigurationList = CC7D41112359A82100BC57D7 /* Build configuration list for PBXProject "Router" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -193,7 +163,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				CC7D41162359A82100BC57D7 /* ModuleTargets */,
+				CC7D41162359A82100BC57D7 /* Router */,
 			);
 		};
 /* End PBXProject section */
@@ -223,8 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7D41302359A8A200BC57D7 /* OLCIStatus.swift in Sources */,
-				CC7D412F2359A8A200BC57D7 /* MMBBookingStatus.swift in Sources */,
 				CC7D41322359A8A200BC57D7 /* MainMouduleDestinationType.swift in Sources */,
 				CC7D41312359A8A200BC57D7 /* MMBMouduleDestinationType.swift in Sources */,
 				CC7D41332359A8A200BC57D7 /* OLCIMouduleDestinationType.swift in Sources */,
@@ -365,7 +333,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ModuleTargets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +357,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ModuleTargets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC7D41112359A82100BC57D7 /* Build configuration list for PBXProject "ModuleTargets" */ = {
+		CC7D41112359A82100BC57D7 /* Build configuration list for PBXProject "Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC7D411D2359A82100BC57D7 /* Debug */,
@@ -416,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC7D411F2359A82100BC57D7 /* Build configuration list for PBXNativeTarget "ModuleTargets" */ = {
+		CC7D411F2359A82100BC57D7 /* Build configuration list for PBXNativeTarget "Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC7D41202359A82100BC57D7 /* Debug */,

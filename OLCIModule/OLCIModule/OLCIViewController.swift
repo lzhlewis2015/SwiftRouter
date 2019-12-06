@@ -8,11 +8,10 @@
 
 import UIKit
 import AppCore
-import ModuleTargets
 
 class OLCIViewController: UIViewController {
 
-    var status: OLCIStatus = .status2
+    var status: Int = 0
     
     var olciLabel: UILabel = {
         let label = UILabel()
@@ -26,7 +25,7 @@ class OLCIViewController: UIViewController {
         super.viewDidLoad()
         title = "olci"
         view.backgroundColor = .white
-        olciLabel.text = "Status:" + (status == .status1 ? "Status1" : "Status2")
+        olciLabel.text = "Status:" + (status == 0 ? "Status1" : "Status2")
     
         view.addSubview(olciLabel)
     }

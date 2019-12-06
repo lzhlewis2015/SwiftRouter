@@ -12,5 +12,5 @@ import AppCore
 public enum MMBMouduleDestinationType: CXDestinationType {
     case mmbPage1(title: String)
     case mmbPage2(title: String,
-        status: MMBBookingStatus)
+        status: String)
 }

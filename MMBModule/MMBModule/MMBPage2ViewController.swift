@@ -8,7 +8,7 @@
 
 import UIKit
 import AppCore
-import ModuleTargets
+import Router
 
 class MMBPage2ViewController: UIViewController {
 
@@ -55,6 +55,6 @@ class MMBPage2ViewController: UIViewController {
     }
     
     @objc func gotToOLCI() {
-        CXRouter.shared.push(OLCIMouduleDestinationType.olciPage1(status: .status1))
+        CXRouter.shared.push(OLCIMouduleDestinationType.olciPage1(status: 1))
     }
 }

@@ -13,10 +13,21 @@
 		CCFBCA492359571800CF7133 /* UIViewController+TopMost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBCA432359571800CF7133 /* UIViewController+TopMost.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CC82CF6723605D6E00BF0830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC82CF6323605D6E00BF0830 /* Router.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CC7D41172359A82100BC57D7;
+			remoteInfo = Router;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		CC7987C32355CF9B00E13A1C /* AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7987C62355CF9B00E13A1C /* AppCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCore.h; sourceTree = "<group>"; };
 		CC7987C72355CF9B00E13A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC82CF6323605D6E00BF0830 /* Router.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Router.xcodeproj; path = ../Router/Router.xcodeproj; sourceTree = "<group>"; };
 		CCFBCA412359571800CF7133 /* CXRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXRouter.swift; sourceTree = "<group>"; };
 		CCFBCA422359571800CF7133 /* CXMediatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXMediatorType.swift; sourceTree = "<group>"; };
 		CCFBCA432359571800CF7133 /* UIViewController+TopMost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMost.swift"; sourceTree = "<group>"; };
@@ -38,6 +49,7 @@
 			children = (
 				CC7987C52355CF9B00E13A1C /* AppCore */,
 				CC7987C42355CF9B00E13A1C /* Products */,
+				CC82CF6223605D6E00BF0830 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +69,22 @@
 				CC7987C72355CF9B00E13A1C /* Info.plist */,
 			);
 			path = AppCore;
+			sourceTree = "<group>";
+		};
+		CC82CF6223605D6E00BF0830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC82CF6323605D6E00BF0830 /* Router.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC82CF6423605D6E00BF0830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC82CF6823605D6E00BF0830 /* Router.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CCFBCA3F2359571800CF7133 /* CXRouter */ = {
@@ -134,12 +162,28 @@
 			mainGroup = CC7987B92355CF9B00E13A1C;
 			productRefGroup = CC7987C42355CF9B00E13A1C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC82CF6423605D6E00BF0830 /* Products */;
+					ProjectRef = CC82CF6323605D6E00BF0830 /* Router.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CC7987C22355CF9B00E13A1C /* AppCore */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC82CF6823605D6E00BF0830 /* Router.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Router.framework;
+			remoteRef = CC82CF6723605D6E00BF0830 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CC7987C12355CF9B00E13A1C /* Resources */ = {

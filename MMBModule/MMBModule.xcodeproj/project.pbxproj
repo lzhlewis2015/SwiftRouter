@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC7988572356B30F00E13A1C /* MMBModule.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7988552356B30F00E13A1C /* MMBModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC7D41432359A92700BC57D7 /* ModuleTargets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D41422359A92000BC57D7 /* ModuleTargets.framework */; };
 		CCA78B512356B71F00B5A532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4D2356B71F00B5A532 /* ViewController.swift */; };
 		CCA78B522356B71F00B5A532 /* MMBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4E2356B71F00B5A532 /* MMBMediator.swift */; };
 		CCA78B532356B71F00B5A532 /* MMBPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4F2356B71F00B5A532 /* MMBPage2ViewController.swift */; };
@@ -17,12 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CC7D41412359A92000BC57D7 /* PBXContainerItemProxy */ = {
+		CC82CF6D23605D7700BF0830 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CC7D413C2359A92000BC57D7 /* ModuleTargets.xcodeproj */;
+			containerPortal = CC82CF6923605D7700BF0830 /* Router.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CC7D41172359A82100BC57D7;
-			remoteInfo = ModuleTargets;
+			remoteInfo = Router;
 		};
 		CCA78B5C2356B73B00B5A532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,7 +36,7 @@
 		CC7988522356B30F00E13A1C /* MMBModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMBModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7988552356B30F00E13A1C /* MMBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBModule.h; sourceTree = "<group>"; };
 		CC7988562356B30F00E13A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC7D413C2359A92000BC57D7 /* ModuleTargets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModuleTargets.xcodeproj; path = ../ModuleTargets/ModuleTargets.xcodeproj; sourceTree = "<group>"; };
+		CC82CF6923605D7700BF0830 /* Router.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Router.xcodeproj; path = ../Router/Router.xcodeproj; sourceTree = "<group>"; };
 		CCA78B4D2356B71F00B5A532 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCA78B4E2356B71F00B5A532 /* MMBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBMediator.swift; sourceTree = "<group>"; };
 		CCA78B4F2356B71F00B5A532 /* MMBPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBPage2ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7D41432359A92700BC57D7 /* ModuleTargets.framework in Frameworks */,
 				CCA78B5E2356B73F00B5A532 /* AppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,10 +86,10 @@
 			path = MMBModule;
 			sourceTree = "<group>";
 		};
-		CC7D413D2359A92000BC57D7 /* Products */ = {
+		CC82CF6A23605D7700BF0830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D41422359A92000BC57D7 /* ModuleTargets.framework */,
+				CC82CF6E23605D7700BF0830 /* Router.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +97,7 @@
 		CCA78B552356B73100B5A532 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D413C2359A92000BC57D7 /* ModuleTargets.xcodeproj */,
+				CC82CF6923605D7700BF0830 /* Router.xcodeproj */,
 				CCA78B582356B73B00B5A532 /* AppCore.xcodeproj */,
 			);
 			name = Frameworks;
@@ -176,8 +174,8 @@
 					ProjectRef = CCA78B582356B73B00B5A532 /* AppCore.xcodeproj */;
 				},
 				{
-					ProductGroup = CC7D413D2359A92000BC57D7 /* Products */;
-					ProjectRef = CC7D413C2359A92000BC57D7 /* ModuleTargets.xcodeproj */;
+					ProductGroup = CC82CF6A23605D7700BF0830 /* Products */;
+					ProjectRef = CC82CF6923605D7700BF0830 /* Router.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -188,11 +186,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CC7D41422359A92000BC57D7 /* ModuleTargets.framework */ = {
+		CC82CF6E23605D7700BF0830 /* Router.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ModuleTargets.framework;
-			remoteRef = CC7D41412359A92000BC57D7 /* PBXContainerItemProxy */;
+			path = Router.framework;
+			remoteRef = CC82CF6D23605D7700BF0830 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CCA78B5D2356B73B00B5A532 /* AppCore.framework */ = {

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC7D41532359A98000BC57D7 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D414C2359A96C00BC57D7 /* AppCore.framework */; };
-		CC7D41542359A98000BC57D7 /* ModuleTargets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D41522359A97200BC57D7 /* ModuleTargets.framework */; };
 		CCA78B862356C5A300B5A532 /* OLCIModule.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA78B842356C5A300B5A532 /* OLCIModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA78B8D2356C6B600B5A532 /* OLCIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B8C2356C6B600B5A532 /* OLCIViewController.swift */; };
 		CCA78B8F2356C79700B5A532 /* OLCIMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B8E2356C79700B5A532 /* OLCIMeditor.swift */; };
@@ -22,18 +21,10 @@
 			remoteGlobalIDString = CC7987C32355CF9B00E13A1C;
 			remoteInfo = AppCore;
 		};
-		CC7D41512359A97200BC57D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC7D414D2359A97200BC57D7 /* ModuleTargets.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CC7D41172359A82100BC57D7;
-			remoteInfo = ModuleTargets;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CC7D41472359A96C00BC57D7 /* AppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppCore.xcodeproj; path = ../AppCore/AppCore.xcodeproj; sourceTree = "<group>"; };
-		CC7D414D2359A97200BC57D7 /* ModuleTargets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ModuleTargets.xcodeproj; path = ../ModuleTargets/ModuleTargets.xcodeproj; sourceTree = "<group>"; };
 		CCA78B812356C5A300B5A532 /* OLCIModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OLCIModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA78B842356C5A300B5A532 /* OLCIModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLCIModule.h; sourceTree = "<group>"; };
 		CCA78B852356C5A300B5A532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7D41532359A98000BC57D7 /* AppCore.framework in Frameworks */,
-				CC7D41542359A98000BC57D7 /* ModuleTargets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +47,6 @@
 		CC7D41442359A95E00BC57D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC7D414D2359A97200BC57D7 /* ModuleTargets.xcodeproj */,
 				CC7D41472359A96C00BC57D7 /* AppCore.xcodeproj */,
 			);
 			name = Frameworks;
@@ -67,14 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				CC7D414C2359A96C00BC57D7 /* AppCore.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CC7D414E2359A97200BC57D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CC7D41522359A97200BC57D7 /* ModuleTargets.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,10 +150,6 @@
 					ProductGroup = CC7D41482359A96C00BC57D7 /* Products */;
 					ProjectRef = CC7D41472359A96C00BC57D7 /* AppCore.xcodeproj */;
 				},
-				{
-					ProductGroup = CC7D414E2359A97200BC57D7 /* Products */;
-					ProjectRef = CC7D414D2359A97200BC57D7 /* ModuleTargets.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -187,13 +164,6 @@
 			fileType = wrapper.framework;
 			path = AppCore.framework;
 			remoteRef = CC7D414B2359A96C00BC57D7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CC7D41522359A97200BC57D7 /* ModuleTargets.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ModuleTargets.framework;
-			remoteRef = CC7D41512359A97200BC57D7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

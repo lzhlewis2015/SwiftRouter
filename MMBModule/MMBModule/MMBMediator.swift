@@ -8,9 +8,10 @@
 
 import Foundation
 import AppCore
-import ModuleTargets
+import Router
 
-extension MMBMouduleDestinationType: CXDestinationSourceType {
+// CXDestinationViewcontrollerProtocol
+extension MMBMouduleDestinationType: CXDestinationImplProtocol {
 
     public var viewController: UIViewController? {
         let bundle = Bundle(for: ViewController.self)
@@ -27,6 +28,10 @@ extension MMBMouduleDestinationType: CXDestinationSourceType {
             return vc
         }
     }
+    
 }
+
+
+
 
 

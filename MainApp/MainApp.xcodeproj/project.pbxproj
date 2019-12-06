@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC82CF7323605DB500BF0830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC82CF6F23605DB500BF0830 /* Router.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CC7D41172359A82100BC57D7;
+			remoteInfo = Router;
+		};
 		CCA78B652356B77900B5A532 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCA78B612356B77800B5A532 /* MMBModule.xcodeproj */;
@@ -72,6 +79,7 @@
 		CC79881D2355D06000E13A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7988202355D06000E13A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7988222355D06000E13A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC82CF6F23605DB500BF0830 /* Router.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Router.xcodeproj; path = ../Router/Router.xcodeproj; sourceTree = "<group>"; };
 		CCA78B612356B77800B5A532 /* MMBModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMBModule.xcodeproj; path = ../MMBModule/MMBModule.xcodeproj; sourceTree = "<group>"; };
 		CCA78B6C2356BF1100B5A532 /* AppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppCore.xcodeproj; path = ../AppCore/AppCore.xcodeproj; sourceTree = "<group>"; };
 		CCA78B902356F1EA00B5A532 /* OLCIModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OLCIModule.xcodeproj; path = ../OLCIModule/OLCIModule.xcodeproj; sourceTree = "<group>"; };
@@ -126,11 +134,20 @@
 		CC79883E2355DA7A00E13A1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC82CF6F23605DB500BF0830 /* Router.xcodeproj */,
 				CCA78B902356F1EA00B5A532 /* OLCIModule.xcodeproj */,
 				CCA78B6C2356BF1100B5A532 /* AppCore.xcodeproj */,
 				CCA78B612356B77800B5A532 /* MMBModule.xcodeproj */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC82CF7023605DB500BF0830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC82CF7423605DB500BF0830 /* Router.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CCA78B622356B77800B5A532 /* Products */ = {
@@ -218,6 +235,10 @@
 					ProductGroup = CCA78B912356F1EA00B5A532 /* Products */;
 					ProjectRef = CCA78B902356F1EA00B5A532 /* OLCIModule.xcodeproj */;
 				},
+				{
+					ProductGroup = CC82CF7023605DB500BF0830 /* Products */;
+					ProjectRef = CC82CF6F23605DB500BF0830 /* Router.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -227,6 +248,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CC82CF7423605DB500BF0830 /* Router.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Router.framework;
+			remoteRef = CC82CF7323605DB500BF0830 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CCA78B662356B77900B5A532 /* MMBModule.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;

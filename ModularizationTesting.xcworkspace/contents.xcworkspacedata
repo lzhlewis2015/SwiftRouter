@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ModuleTargets/ModuleTargets.xcodeproj">
+      location = "group:Router/Router.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:OLCIModule/OLCIModule.xcodeproj">

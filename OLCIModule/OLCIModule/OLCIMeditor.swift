@@ -8,12 +8,10 @@
 
 import Foundation
 import AppCore
-import ModuleTargets
+import Router
 
-
-extension OLCIMouduleDestinationType: CXDestinationSourceType {
+extension OLCIMouduleDestinationType: CXDestinationImplProtocol {
     
-
     public var viewController: UIViewController? {
         
         switch self {
@@ -22,7 +20,6 @@ extension OLCIMouduleDestinationType: CXDestinationSourceType {
             vc.status = status
             return vc
         }
-        return nil
     }
     
 }
