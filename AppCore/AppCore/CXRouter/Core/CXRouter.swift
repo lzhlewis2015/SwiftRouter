@@ -74,7 +74,7 @@ open class CXRouter {
 extension CXRouter: CXMediatorType {
     public func viewController(of target: CXDestinationType) -> UIViewController? {
         guard let t = target as? CXDestinationImplProtocol else {
-            print("MEDIATOR WARNINIG: \(target) does not conform to MediatorSourceType")
+            print("MEDIATOR WARNINIG: \(target) does not conform to CXDestinationImplProtocol")
             return nil
         }
         guard let viewController = t.viewController else { return nil }
