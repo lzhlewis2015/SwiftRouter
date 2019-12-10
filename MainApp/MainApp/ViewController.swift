@@ -14,16 +14,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Welcome Home"
     }
 
     @IBAction func goToMMB(_ sender: Any) {
         CXRouter.shared.push(MMBMouduleDestinationType.mmbPage1(title: "mmb 1"))
     }
     
-    @IBAction func goToMMBPage2(_ sender: Any) {
-        CXRouter.shared.push(MMBMouduleDestinationType.mmbPage2(title: "mmb 2",
-                                                                status: "multi"))
-
+    @IBAction func goToOLCI(_ sender: Any) {
+        CXRouter.shared.push(OLCIMouduleDestinationType.olciPage1(status: 1))
     }
 }
 

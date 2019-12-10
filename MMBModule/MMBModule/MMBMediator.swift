@@ -12,7 +12,7 @@ import Router
 
 // CXDestinationViewcontrollerProtocol
 extension MMBMouduleDestinationType: CXDestinationImplProtocol {
-
+    
     public var viewController: UIViewController? {
         let bundle = Bundle(for: ViewController.self)
         switch self {
@@ -22,13 +22,9 @@ extension MMBMouduleDestinationType: CXDestinationImplProtocol {
                 return page1VC
             }
             return nil
-        case .mmbPage2(let title, _):
-            let vc = MMBPage2ViewController()
-            vc.labelForDisplay.text = title
-            return vc
+            
         }
     }
-    
 }
 
 

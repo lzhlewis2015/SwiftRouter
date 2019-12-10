@@ -10,7 +10,6 @@
 		CC7988572356B30F00E13A1C /* MMBModule.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7988552356B30F00E13A1C /* MMBModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA78B512356B71F00B5A532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4D2356B71F00B5A532 /* ViewController.swift */; };
 		CCA78B522356B71F00B5A532 /* MMBMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4E2356B71F00B5A532 /* MMBMediator.swift */; };
-		CCA78B532356B71F00B5A532 /* MMBPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA78B4F2356B71F00B5A532 /* MMBPage2ViewController.swift */; };
 		CCA78B542356B71F00B5A532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA78B502356B71F00B5A532 /* Main.storyboard */; };
 		CCA78B5E2356B73F00B5A532 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA78B5D2356B73B00B5A532 /* AppCore.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		CC82CF6923605D7700BF0830 /* Router.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Router.xcodeproj; path = ../Router/Router.xcodeproj; sourceTree = "<group>"; };
 		CCA78B4D2356B71F00B5A532 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCA78B4E2356B71F00B5A532 /* MMBMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBMediator.swift; sourceTree = "<group>"; };
-		CCA78B4F2356B71F00B5A532 /* MMBPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBPage2ViewController.swift; sourceTree = "<group>"; };
 		CCA78B502356B71F00B5A532 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CCA78B582356B73B00B5A532 /* AppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppCore.xcodeproj; path = ../AppCore/AppCore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +76,6 @@
 			children = (
 				CCA78B502356B71F00B5A532 /* Main.storyboard */,
 				CCA78B4E2356B71F00B5A532 /* MMBMediator.swift */,
-				CCA78B4F2356B71F00B5A532 /* MMBPage2ViewController.swift */,
 				CCA78B4D2356B71F00B5A532 /* ViewController.swift */,
 				CC7988552356B30F00E13A1C /* MMBModule.h */,
 				CC7988562356B30F00E13A1C /* Info.plist */,
@@ -218,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA78B532356B71F00B5A532 /* MMBPage2ViewController.swift in Sources */,
 				CCA78B512356B71F00B5A532 /* ViewController.swift in Sources */,
 				CCA78B522356B71F00B5A532 /* MMBMediator.swift in Sources */,
 			);

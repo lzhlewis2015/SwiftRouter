@@ -18,31 +18,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wd-3L-fWc">
-                                <rect key="frame" x="67" y="161" width="83" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="GoToMMB"/>
-                                <connections>
-                                    <action selector="goToMMB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DYQ-E8-dVI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmO-Qh-VmZ">
-                                <rect key="frame" x="63" y="286" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="GoToMMB2"/>
-                                <connections>
-                                    <action selector="goToMMBPage2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eea-IH-joq"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KfB-ab-ZHG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="301.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For demo use..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbt-5p-0jT">
+                                        <rect key="frame" x="205" y="251" width="150" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="U7H-Af-nhM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wd-3L-fWc">
+                                        <rect key="frame" x="131.5" y="131" width="112" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Go to MMB"/>
+                                        <connections>
+                                            <action selector="goToMMB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2f-1i-NWG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.67287900457315053" green="0.79111148348919635" blue="0.74946717801409457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wbt-5p-0jT" secondAttribute="trailing" constant="20" id="0gQ-qD-xmD"/>
+                                    <constraint firstItem="3Wd-3L-fWc" firstAttribute="centerY" secondItem="KfB-ab-ZHG" secondAttribute="centerY" id="i1M-ay-tNp"/>
+                                    <constraint firstAttribute="bottom" secondItem="wbt-5p-0jT" secondAttribute="bottom" constant="30" id="uA7-yw-cOQ"/>
+                                    <constraint firstItem="3Wd-3L-fWc" firstAttribute="centerX" secondItem="KfB-ab-ZHG" secondAttribute="centerX" id="xip-c4-ggM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg6-uM-2SG">
+                                <rect key="frame" x="0.0" y="365.5" width="375" height="301.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmO-Qh-VmZ">
+                                        <rect key="frame" x="132.5" y="131" width="110" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Go to OLCI"/>
+                                        <connections>
+                                            <action selector="goToOLCI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmc-Jo-mjK"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exercise use..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGI-yi-fR8">
+                                        <rect key="frame" x="205" y="251" width="150" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="ilL-Lh-Sbb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.96004055844869229" blue="0.78053220518237321" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="PmO-Qh-VmZ" firstAttribute="centerX" secondItem="Eg6-uM-2SG" secondAttribute="centerX" id="2B0-Mv-NCJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gGI-yi-fR8" secondAttribute="trailing" constant="20" id="UFq-Ou-kjw"/>
+                                    <constraint firstAttribute="bottom" secondItem="gGI-yi-fR8" secondAttribute="bottom" constant="30" id="fDJ-Kx-sAW"/>
+                                    <constraint firstItem="PmO-Qh-VmZ" firstAttribute="centerY" secondItem="Eg6-uM-2SG" secondAttribute="centerY" id="xKz-ut-t8w"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eg6-uM-2SG" secondAttribute="trailing" id="DP3-qq-dN8"/>
+                            <constraint firstItem="KfB-ab-ZHG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LD4-2d-Xod"/>
+                            <constraint firstItem="Eg6-uM-2SG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sso-TE-9dH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eg6-uM-2SG" secondAttribute="bottom" id="f2V-fG-cbD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KfB-ab-ZHG" secondAttribute="trailing" id="rbH-S2-eUf"/>
+                            <constraint firstItem="KfB-ab-ZHG" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1/2" id="vDG-AE-tKH"/>
+                            <constraint firstItem="Eg6-uM-2SG" firstAttribute="top" secondItem="KfB-ab-ZHG" secondAttribute="bottom" id="wHu-S4-6vb"/>
+                            <constraint firstItem="KfB-ab-ZHG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wS7-WJ-gRj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Yo3-fy-xqC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1034" y="150"/>
+            <point key="canvasLocation" x="1032.8" y="149.77511244377811"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cGX-qq-fxY">

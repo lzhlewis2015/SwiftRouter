@@ -2,18 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AppCore/AppCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Router/Router.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:OLCIModule/OLCIModule.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:MMBModule/MMBModule.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MainApp/MainApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AppCore/AppCore.xcodeproj">
+      location = "group:MMBModule/MMBModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OLCIModule/OLCIModule.xcodeproj">
    </FileRef>
 </Workspace>
