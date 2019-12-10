@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import AppCore
 import Router
+import AppCore
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goToOLCI(_ sender: Any) {
-        CXRouter.shared.push(OLCIMouduleDestinationType.olciPage1(status: 1))
+        print("go from here")
+        // TODO: please use router to navigate to OLCI page
     }
 }
 

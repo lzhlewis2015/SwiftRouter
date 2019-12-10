@@ -8,18 +8,5 @@
 
 import Foundation
 import AppCore
-import Router
 
-extension OLCIMouduleDestinationType: CXDestinationImplProtocol {
-    
-    public var viewController: UIViewController? {
-        
-        switch self {
-        case .olciPage1(let status):
-            let vc = OLCIViewController()
-            vc.status = status
-            return vc
-        }
-    }
-    
-}
+//TODO: impl your CXDestinationImplProtocol here, take reference to how MMBMediator.swift impl.

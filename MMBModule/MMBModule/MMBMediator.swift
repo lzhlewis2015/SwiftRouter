@@ -10,9 +10,8 @@ import Foundation
 import AppCore
 import Router
 
-// CXDestinationViewcontrollerProtocol
 extension MMBMouduleDestinationType: CXDestinationImplProtocol {
-    
+
     public var viewController: UIViewController? {
         let bundle = Bundle(for: ViewController.self)
         switch self {
@@ -22,7 +21,7 @@ extension MMBMouduleDestinationType: CXDestinationImplProtocol {
                 return page1VC
             }
             return nil
-            
+
         }
     }
 }

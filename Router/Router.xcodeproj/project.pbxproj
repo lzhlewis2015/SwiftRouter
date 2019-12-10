@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC56FB55239F4D08004FF1D6 /* MainModuleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56FB54239F4D08004FF1D6 /* MainModuleDestinationType.swift */; };
 		CC7D411C2359A82100BC57D7 /* ModuleTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7D411A2359A82100BC57D7 /* ModuleTargets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC7D41312359A8A200BC57D7 /* MMBMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412C2359A8A200BC57D7 /* MMBMouduleDestinationType.swift */; };
-		CC7D41322359A8A200BC57D7 /* MainMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412D2359A8A200BC57D7 /* MainMouduleDestinationType.swift */; };
 		CC7D41332359A8A200BC57D7 /* OLCIMouduleDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D412E2359A8A200BC57D7 /* OLCIMouduleDestinationType.swift */; };
 		CC7D413B2359A8D500BC57D7 /* AppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D413A2359A8D000BC57D7 /* AppCore.framework */; };
 /* End PBXBuildFile section */
@@ -25,11 +25,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC56FB54239F4D08004FF1D6 /* MainModuleDestinationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleDestinationType.swift; sourceTree = "<group>"; };
 		CC7D41172359A82100BC57D7 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7D411A2359A82100BC57D7 /* ModuleTargets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleTargets.h; sourceTree = "<group>"; };
 		CC7D411B2359A82100BC57D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7D412C2359A8A200BC57D7 /* MMBMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBMouduleDestinationType.swift; sourceTree = "<group>"; };
-		CC7D412D2359A8A200BC57D7 /* MainMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMouduleDestinationType.swift; sourceTree = "<group>"; };
 		CC7D412E2359A8A200BC57D7 /* OLCIMouduleDestinationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLCIMouduleDestinationType.swift; sourceTree = "<group>"; };
 		CC7D41352359A8D000BC57D7 /* AppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppCore.xcodeproj; path = ../AppCore/AppCore.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CC7D412C2359A8A200BC57D7 /* MMBMouduleDestinationType.swift */,
-				CC7D412D2359A8A200BC57D7 /* MainMouduleDestinationType.swift */,
 				CC7D412E2359A8A200BC57D7 /* OLCIMouduleDestinationType.swift */,
+				CC56FB54239F4D08004FF1D6 /* MainModuleDestinationType.swift */,
 			);
 			path = MouduleDestinationType;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7D41322359A8A200BC57D7 /* MainMouduleDestinationType.swift in Sources */,
 				CC7D41312359A8A200BC57D7 /* MMBMouduleDestinationType.swift in Sources */,
 				CC7D41332359A8A200BC57D7 /* OLCIMouduleDestinationType.swift in Sources */,
+				CC56FB55239F4D08004FF1D6 /* MainModuleDestinationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

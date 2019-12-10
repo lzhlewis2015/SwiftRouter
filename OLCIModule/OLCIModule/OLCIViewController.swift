@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import AppCore
-import Router
+//TODO: import necessary library here
 
 class OLCIViewController: UIViewController {
 
@@ -39,7 +38,8 @@ class OLCIViewController: UIViewController {
     }
     
     @objc func backToMain() {
-        CXRouter.shared.makeRoot(to: MainMouduleDestinationType.mainPage)
+        // TODO: use router to make the MainViewController as root view controller here
+        
     }
 
 }

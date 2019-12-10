@@ -9,6 +9,4 @@
 import Foundation
 import AppCore
 
-public enum OLCIMouduleDestinationType: CXDestinationType {
-    case olciPage1(status: Int)
-}
+//TODO: Define your OLCI module destination type here

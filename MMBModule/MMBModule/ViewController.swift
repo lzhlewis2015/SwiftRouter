@@ -8,7 +8,6 @@
 
 import UIKit
 import AppCore
-import Router
 
 class ViewController: UIViewController {
 
@@ -21,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func backToMain(_ sender: Any) {
-        CXRouter.shared.makeRoot(to: MainMouduleDestinationType.mainPage)
+//        CXRouter.shared.makeRoot(to: MainMouduleDestinationType.mainPage)
     }
     
 }
